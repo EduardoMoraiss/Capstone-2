@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kabum</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <h1 class="title">Tech Center</h1>
+      <nav class="espaco">
+        <p class="todos"><a href="">Todos os departamentos</a></p>
+        <p class="abas"><a href="">Lançamentos</a></p>
+        <p class="abas"><a href="">Destaques</a></p>
+        <p class="abas"><a href="">Pc Gamer</a></p>
+      </nav>
+    </header>
+    <main>
+      <ul class="lista" id="vitrine"></ul>
+      <div class="right">
+        <div>
+          <label class="search">
+            <input
+              type="text"
+              name="pesquisa"
+              id="pesquisa"
+              placeholder="Digite aqui sua pesquisa"
+            />
+            <button class="botao">Pesquisar</button>
+          </label>
+          <div class="cart">
+            <div class="quadrinho">
+              <button class="outroBotao">Carrinho</button>
+              <div class="displayDoCarrinho" id="functionCarrinho">
+                <div class="linhacarrinho">
+                  <img src="img/controle.jpg" alt="logo" id="fotos3" />
+                  <p class="produtoDoCarrinho">
+                    Controle Sem Fio DualSense Midnight Black PS5
+                  </p>
+                  <p class="precoDoProdutoDoCarrinho">R$ 399,90</p>
+                  <button class="removerDoCarrinho">Remover produto</button>
+                </div>
+                <div class="linhacarrinho">
+                  <img src="/img/fan.jpg" alt="logo" id="fotos3" />
+                  <p class="produtoDoCarrinho">
+                    Cooler FAN Rise Mode Black 120mm
+                  </p>
+                  <p class="precoDoProdutoDoCarrinho">R$ 9.90</p>
+                  <button class="removerDoCarrinho">Remover produto</button>
+                </div>
+                <div class="linhacarrinho">
+                  <img src="/img/fan.jpg" alt="logo" id="fotos3" />
+                  <p class="produtoDoCarrinho">
+                    Monitor LG 34' IPS, Ultra Wide, Full HD
+                  </p>
+                  <p class="precoDoProdutoDoCarrinho">R$ 2199.90</p>
+                  <button class="removerDoCarrinho">Remover produto</button>
+                </div>
+              </div>
+              <div class="resultados">
+                <div class="quantidade">
+                  <p>Quantidade:</p>
+                  <p>3</p>
+                </div>
+                <div class="valor">
+                  <p>Total:</p>
+                  <p>R$2609,70</p>
+                </div>
+              </div>
+              <label>
+                <button class="carrinho">Adicionar produtos</button>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="/database.js"></script>
+    <script src="/index.js"></script>
+  </body>
+</html>
